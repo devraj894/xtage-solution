@@ -1,0 +1,128 @@
+.sidebar {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    min-height: 300px;
+  }
+  
+  .sidebar-title {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .no-node {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #666;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #f9f9f9;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: #007bff;
+    outline: none;
+    background: #e7f4ff;
+  }
+  
+  .save-btn,
+  .delete-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .save-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .save-btn:hover {
+    background: #0056b3;
+  }
+  
+  .delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    margin-top: 15px;
+  }
+  
+  .delete-btn:hover {
+    background: #cc0000;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .sidebar {
+      max-width: 100%;
+      padding: 15px;
+    }
+  
+    .sidebar-title {
+      font-size: 1.5rem;
+    }
+  
+    .form-group input,
+    .form-group select {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  
+    .save-btn,
+    .delete-btn {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  }
+  
+  .sidebar * {
+    transition: all 0.3s ease;
+  }
+  
+  .form-group input,
+  .form-group select {
+    margin-top: 8px;
+  }
+  
+  .save-btn,
+  .delete-btn {
+    margin-top: 10px;
+  }
+  
